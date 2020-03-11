@@ -15,6 +15,9 @@
 		FC231F492417B68600C04818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC231F472417B68600C04818 /* LaunchScreen.storyboard */; };
 		FC231F542417B68600C04818 /* MyMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC231F532417B68600C04818 /* MyMusicTests.swift */; };
 		FC231F5F2417B68600C04818 /* MyMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC231F5E2417B68600C04818 /* MyMusicUITests.swift */; };
+		FC231F6F24184CE500C04818 /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC231F6C24184CE400C04818 /* backmusic.mp3 */; };
+		FC231F7024184CE500C04818 /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC231F6D24184CE500C04818 /* cymbal.mp3 */; };
+		FC231F7124184CE500C04818 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC231F6E24184CE500C04818 /* guitar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FC231F5A2417B68600C04818 /* MyMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC231F5E2417B68600C04818 /* MyMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicUITests.swift; sourceTree = "<group>"; };
 		FC231F602417B68600C04818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC231F6C24184CE400C04818 /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
+		FC231F6D24184CE500C04818 /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cymbal.mp3; sourceTree = "<group>"; };
+		FC231F6E24184CE500C04818 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				FC231F452417B68600C04818 /* Assets.xcassets */,
 				FC231F472417B68600C04818 /* LaunchScreen.storyboard */,
 				FC231F4A2417B68600C04818 /* Info.plist */,
+				FC231F6C24184CE400C04818 /* backmusic.mp3 */,
+				FC231F6D24184CE500C04818 /* cymbal.mp3 */,
+				FC231F6E24184CE500C04818 /* guitar.mp3 */,
 			);
 			path = MyMusic;
 			sourceTree = "<group>";
@@ -233,6 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC231F492417B68600C04818 /* LaunchScreen.storyboard in Resources */,
+				FC231F7024184CE500C04818 /* cymbal.mp3 in Resources */,
+				FC231F7124184CE500C04818 /* guitar.mp3 in Resources */,
+				FC231F6F24184CE500C04818 /* backmusic.mp3 in Resources */,
 				FC231F462417B68600C04818 /* Assets.xcassets in Resources */,
 				FC231F442417B68300C04818 /* Main.storyboard in Resources */,
 			);
